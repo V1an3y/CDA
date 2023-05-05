@@ -1,0 +1,41 @@
+body{
+	background-color: #008781;
+	height: 100vh;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.calc{
+	width: 30%;
+	height: 60%;
+	background-color: #666264;
+	position: center;
+	border: 2px solid black;
+}
+#ans{
+	width: 90%;
+	margin-top: 26px;
+	font-family: Elephant;
+	font-size: 28px;
+	color: blue;
+}
+.btn input[type='button']{
+	width: 60px;
+	padding: 2px;
+	margin: 4px;
+	position: relative;
+	left: 23px;
+	top: 20px;
+	height: 60px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: all 0.5s ease;
+	background-color: #969595;
+	border-radius: 6px;
+}
+.btn input[type='button']:hover{
+	background-color: gold;
+	color: white;
+}
